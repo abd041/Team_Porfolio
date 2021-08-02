@@ -1,0 +1,26 @@
+body::before{
+    display: block;
+    content: "";
+    height: 55px;
+}
+.card{
+        margin: 0 auto;
+        margin-bottom: 20px;
+      
+}
+@media only screen and (max-width: 768px){
+  .card:hover{
+    transform: scale(1.1)
+}
+}
+
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+
+  background-color: black;
+  color: white;
+  vertical-align: middle;
+}
